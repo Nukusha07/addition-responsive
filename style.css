@@ -14,7 +14,7 @@ body{
   }
   @keyframes bg-img-slider {
     0%, 100% {
-      background-image:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+      background-image: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     }
     20% {
       background-image: radial-gradient(#2b5876, #4e4376);
@@ -238,6 +238,9 @@ input:checked + .slider:before {
     .container {
         width: 100%;
         margin-top: 0px ;
+    }
+    .right_content{
+        width: 100%;
     }
 }
 @media (max-width: 768px) {
